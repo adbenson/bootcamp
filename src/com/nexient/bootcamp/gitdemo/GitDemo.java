@@ -28,4 +28,11 @@ public class GitDemo {
 		sum = num+2;
 		return sum;
 	}
+	
+	public char convertToChar(int num)
+	{
+		char alpha = ' ';
+		alpha = (char)num;
+		return alpha;
+	}
 }
