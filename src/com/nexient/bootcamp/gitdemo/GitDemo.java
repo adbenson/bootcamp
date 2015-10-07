@@ -21,4 +21,11 @@ public class GitDemo {
 		
 		return sum;
 	}
+	
+	public int addTwo(int num)
+	{
+		int sum =0;
+		sum = num+2;
+		return sum;
+	}
 }
