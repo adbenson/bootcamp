@@ -16,7 +16,7 @@ public class GitDemo {
 		int sum = 0;
 		
 		for (int val : array) {
-			sum = val;
+			sum = sum + val;
 		}
 		
 		return sum;
