@@ -34,6 +34,7 @@ public class GitDemo {
 		return sum;
 	}
 	
+<<<<<<< HEAD
 	public void goToURL()
 	{
 		String URL = JOptionPane.showInputDialog("Input any URL (you have to put www)");
@@ -47,5 +48,29 @@ public class GitDemo {
             }
 			
 		}
+=======
+	public char convertToChar(int num)
+	{
+		char alpha = ' ';
+		alpha = (char)num;
+		return alpha;
+	}
+	
+	public void findPrimes(int num)
+	{
+		System.out.print("The Prime Factors of "+num+" are : ");
+		 
+		int i=2;
+		while(num>1)
+		  {
+		   if(num%i == 0)
+		    {
+		     System.out.print(i+" ");
+		     num=num/i;
+		    }
+		   else
+		    i++;
+		  }
+>>>>>>> add_two
 	}
 }
