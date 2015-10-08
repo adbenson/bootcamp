@@ -34,7 +34,7 @@ public class GitDemo {
 		return sum;
 	}
 	
-<<<<<<< HEAD
+
 	public void goToURL()
 	{
 		String URL = JOptionPane.showInputDialog("Input any URL (you have to put www)");
@@ -48,7 +48,8 @@ public class GitDemo {
             }
 			
 		}
-=======
+	}
+
 	public char convertToChar(int num)
 	{
 		char alpha = ' ';
@@ -71,6 +72,6 @@ public class GitDemo {
 		   else
 		    i++;
 		  }
->>>>>>> add_two
+
 	}
 }
