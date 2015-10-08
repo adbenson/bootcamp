@@ -86,5 +86,15 @@ public class GitDemo {
 
 	    return randomNum;
 	}
-	 
+	public static void fibonacci (int number)
+    {
+        long a = 0;
+        long b = 1;
+        for(int i = 1; i<number;i++){
+            long c = a +b;
+            a=b;
+            b=c;
+            System.out.println(c);}
+    }
+		 
 }
