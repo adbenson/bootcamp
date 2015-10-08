@@ -2,19 +2,27 @@ package com.nexient.bootcamp.gitdemo;
 
 import javax.swing.JOptionPane;
 import javax.swing.JWindow;
+
+import DemoGraph.SimpleGraph;
+import javafx.application.Application;
+
 import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
 public class GitDemo {
+	
+	private SimpleGraph graph = new SimpleGraph();
 
 	public GitDemo() {
 		int[] array = {1, 4, 2, 2, 0};
 		
 		JWindow window = new JWindow();
 		JOptionPane.showMessageDialog(window, "Sum = " + sumArray(array));	
-		goToURL();
+		Application.launch(SimpleGraph.class);
+		//goToURL();
+
 	}
 	
 	public int sumArray(int[] array) {
