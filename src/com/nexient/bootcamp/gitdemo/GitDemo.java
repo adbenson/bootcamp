@@ -33,7 +33,6 @@ public class GitDemo {
 		sum = num+2;
 		return sum;
 	}
-	
 
 	public void goToURL()
 	{
@@ -74,4 +73,18 @@ public class GitDemo {
 		  }
 
 	}
+	public static void diamondPatternBasedOnNum(int num){
+		for (int i = 0; i < num; i++) 
+	          System.out.println("    *********".substring(i, num + 2*i));
+
+	    for (int i =num; i>0;i--)
+	        System.out.println("     **********".substring(i-1,num+(2*i)-3));
+	   }
+	public static int randInt(int min, int max) {
+	    
+	    int randomNum = min + (int)(Math.random() * ((max - min) + 1));
+
+	    return randomNum;
+	}
+	 
 }
